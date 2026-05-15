@@ -1,0 +1,56 @@
+[
+    {
+        "timestamp": "2026-05-12 13:25:24.356502",
+        "event_type": "advisor_chat",
+        "details": {
+            "session_id": "user1",
+            "question": "My retired client has 85% equity exposure.",
+            "response": "Based on retirement planning guidelines, a retired client should prioritize capital preservation and stable income. It is recommended to adjust the equity exposure to align with these objectives."
+        }
+    },
+    {
+        "timestamp": "2026-05-12 13:31:28.178737",
+        "event_type": "advisor_chat",
+        "details": {
+            "session_id": "user1",
+            "question": "My conservative client has 90% equity allocation.",
+            "response": "Your conservative client's 90% equity allocation does not align with the typical investment approach for conservative investors, who usually prioritize capital preservation and stable income. It may be advisable to reassess and potentially adjust the allocation to better match your client's risk profile."
+        }
+    },
+    {
+        "timestamp": "2026-05-12 13:32:22.507071",
+        "event_type": "advisor_chat",
+        "details": {
+            "session_id": "user1",
+            "question": "so what are the next steps",
+            "response": "The next steps would involve reassessing your client's risk profile and considering portfolio rebalancing to align with a more conservative investment approach. It's crucial to review the current allocation, evaluate the impact of market movements, and potentially adjust the equity exposure accordingly. Additionally, implementing tax-efficient investing strategies and establishing systematic investment and withdrawal rules can help optimize long-term returns and manage risk effectively."
+        }
+    },
+    {
+        "timestamp": "2026-05-12 20:29:17.187546",
+        "event_type": "advisor_chat",
+        "details": {
+            "session_id": "user1",
+            "question": "what does the document say",
+            "response": "The document advises advisors to document suitability assessments before recommending aggressive investments. High-risk products should not be recommended to conservative investors without proper disclosures. Compliance reviews are required for portfolios exceeding defined risk thresholds."
+        }
+    },
+    {
+        "timestamp": "2026-05-12 20:32:32.449321",
+        "event_type": "advisor_chat",
+        "details": {
+            "session_id": "user1",
+            "question": "What are the biggest financial risks in India right now?",
+            "response": "The biggest financial risks in India right now include risks for lending institutions due to bad loan ratios, as well as external risks such as oil prices and geopolitical instability that may impact economic growth."
+        }
+    },
+    {
+        "timestamp": "2026-05-12 20:33:54.507449",
+        "event_type": "advisor_chat",
+        "details": {
+            "session_id": "user1",
+            "question": "What is happening in the Indian fintech ecosystem?",
+            "response": "India continues to strengthen its position as one of the world's largest fintech ecosystems, attracting investment and innovation in areas such as digital payments, lending, and wealth management. The regulatory environment is evolving to support fintech growth and promote financial inclusion."
+        }
+    }
+]

@@ -1,0 +1,49 @@
+services:
+
+  postgres:
+    image: postgres:15
+
+    container_name: advisor-ai-postgres
+
+    environment:
+      POSTGRES_USER: advisor
+      POSTGRES_PASSWORD: advisor123
+      POSTGRES_DB: advisor_ai
+
+    ports:
+      - "5432:5432"
+
+    restart: always
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: advisor-ai-backend
+
+    env_file:
+      - .env
+
+    ports:
+      - "8000:8000"
+
+    depends_on:
+      - postgres
+
+    restart: always
+
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+
+    container_name: advisor-ai-frontend
+
+    ports:
+      - "8501:8501"
+
+    depends_on:
+      - backend
+
+    restart: always
